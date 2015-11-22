@@ -26,7 +26,7 @@ import org.eclipse.jetty.jmx.MBeanContainer;
 import org.eclipse.jetty.server.Server;
 import org.eclipse.jetty.webapp.WebAppContext;
 
-public class OneWebApp {
+public class SDMTool {
 	public static void main(String[] args) throws Exception {
 		CommandMap commandMap = new CommandCli(args).parse();
         // Create a basic jetty server object that will listen on port 8080.
